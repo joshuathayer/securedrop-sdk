@@ -90,8 +90,7 @@ class Submission:
         self.filename = ""  # type: str
         self.is_read = False  # type: bool
         self.size = 0  # type: int
-        self.source_url = ""  # type: str
-        self.source_uuid = ""  # type: str
+        self.source = None
         self.submission_url = ""  # type: str
         self.uuid = ""  # type: str
 
